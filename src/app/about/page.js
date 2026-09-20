@@ -20,8 +20,8 @@ const teamMembers = [
     image: "/team/project-manager.svg",
   },
   {
-    name: "Sneha Patel",
-    role: "Lead UI/UX Designer",
+    name: "Venkat Birajdar",
+    role: "Digital marketing Associate",
     image: "/team/ui-ux-design.svg",
   },
   {
