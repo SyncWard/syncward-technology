@@ -1,15 +1,15 @@
-# Graph Report - SyncWard-Technologies  (2026-09-20)
+# Graph Report - SyncWard-Technologies  (2026-09-18)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 257 nodes · 288 edges · 53 communities (10 shown, 38 thin omitted)
+- 253 nodes · 284 edges · 50 communities (8 shown, 39 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3631ecd3`
+- Built from commit: `57b6bb59`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -17,13 +17,12 @@
 - common/HeroSection.jsx
 - Core Project Dependencies
 - app/page.js
-- components.json
 - button.jsx
+- components.json
 - Build and Development Tools
 - API Routes and Database
 - Next.js
 - layout.js
-- technologies/page.js
 - compilerOptions
 - imagekit-auth/route.js
 - ProjectGallery.jsx
@@ -41,6 +40,7 @@
 - Tech Hero Background
 - Work Hero Background
 - Hero Background Isometric
+- SyncWard Technology Logo
 - Hero Background Isometric Duplicate
 - MongoDB Logo
 - Full-Stack Engineer Avatar
@@ -61,7 +61,6 @@
 - Redis Logo
 - TypeScript Logo
 - Why Choose SyncWard UI
-- SyncWard Technology
 
 ## God Nodes (most connected - your core abstractions)
 1. `HeroSection()` - 15 edges
@@ -71,9 +70,9 @@
 5. `aliases` - 6 edges
 6. `tailwind` - 6 edges
 7. `scripts` - 5 edges
-8. `IndustriesSection()` - 3 edges
-9. `ServicesSection()` - 3 edges
-10. `getProjects()` - 3 edges
+8. `ServicesSection()` - 3 edges
+9. `IndustriesSection()` - 3 edges
+10. `TechnologiesSection()` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Tailwind CSS Logo` --references--> `tailwindcss`  [INFERRED]
@@ -93,11 +92,11 @@
 ## Hyperedges (group relationships)
 - **Core Technology Stack** — nextjs_framework, mongodb_database, tailwindcss [EXTRACTED 1.00]
 
-## Communities (53 total, 38 thin omitted)
+## Communities (50 total, 39 thin omitted)
 
 ### Community 0 - "common/HeroSection.jsx"
-Cohesion: 0.09
-Nodes (14): metadata, teamMembers, metadata, offerings, offerings, offerings, offerings, offerings (+6 more)
+Cohesion: 0.08
+Nodes (16): metadata, teamMembers, metadata, offerings, offerings, offerings, offerings, offerings (+8 more)
 
 ### Community 1 - "Core Project Dependencies"
 Cohesion: 0.06
@@ -105,15 +104,15 @@ Nodes (31): @base-ui/react, class-variance-authority, cn, framer-motion, imageki
 
 ### Community 2 - "app/page.js"
 Cohesion: 0.11
-Nodes (12): metadata, metadata, HeroSection(), industries, IndustriesSection(), ProcessSection(), steps, services (+4 more)
+Nodes (12): metadata, metadata, HeroSection(), industries, IndustriesSection(), ProcessSection(), steps, StatsBar() (+4 more)
 
-### Community 3 - "components.json"
+### Community 3 - "button.jsx"
+Cohesion: 0.13
+Nodes (7): AdminDashboard(), metadata, ContactForm(), projects, services, Button(), buttonVariants
+
+### Community 4 - "components.json"
 Cohesion: 0.09
 Nodes (21): aliases, components, hooks, lib, ui, utils, iconLibrary, menuAccent (+13 more)
-
-### Community 4 - "button.jsx"
-Cohesion: 0.15
-Nodes (6): AdminDashboard(), metadata, ContactForm(), projects, Button(), buttonVariants
 
 ### Community 5 - "Build and Development Tools"
 Cohesion: 0.11
@@ -127,32 +126,24 @@ Nodes (11): GET(), POST(), GET(), POST(), POST(), getProjects(), metadata, WorkP
 Cohesion: 0.17
 Nodes (9): MongoDB, Next.js, tailwindcss, About Banner, Our Story UI, MongoDB Logo, Next.js Logo, Tailwind CSS Logo (+1 more)
 
-### Community 8 - "layout.js"
-Cohesion: 0.32
-Nodes (4): inter, metadata, Footer(), Navbar()
-
-### Community 9 - "technologies/page.js"
-Cohesion: 0.40
-Nodes (3): metadata, technologies, TechnologiesSection()
-
 ## Knowledge Gaps
 - **113 isolated node(s):** `metadata`, `offerings`, `offerings`, `offerings`, `offerings` (+108 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 156 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **38 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 154 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **39 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `dependencies` connect `Core Project Dependencies` to `Build and Development Tools`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
-- **Why does `Button()` connect `button.jsx` to `layout.js`, `common/HeroSection.jsx`, `app/page.js`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+- **Why does `Button()` connect `button.jsx` to `common/HeroSection.jsx`, `app/page.js`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Why does `devDependencies` connect `Build and Development Tools` to `Next.js`?**
-  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **What connects `metadata`, `offerings`, `offerings` to the rest of the system?**
   _113 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `common/HeroSection.jsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.08961593172119488 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07897793263646923 - nodes in this community are weakly interconnected._
 - **Should `Core Project Dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `app/page.js` be split into smaller, more focused modules?**

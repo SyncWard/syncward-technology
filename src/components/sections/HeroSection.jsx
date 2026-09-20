@@ -1,3 +1,4 @@
+// src/components/sections/HeroSection.jsx
 "use client";
 
 import { Button } from "@/components/ui/button";
@@ -39,9 +40,11 @@ export default function HeroSection() {
       >
         <Image
           src="/bg-hero.png" // Make sure ye image public folder mein ho
-          alt="Hero Background"
+          alt="SyncWard Technologies Digital Solutions Background"
           fill
           priority
+          sizes="100vw"
+          quality={85}
           className="object-cover object-center md:object-right lg:object-center opacity-70 md:opacity-100"
         />
       </motion.div>

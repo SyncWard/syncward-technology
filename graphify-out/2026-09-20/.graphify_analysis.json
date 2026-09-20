@@ -456,18 +456,18 @@
       "degree": 5
     },
     {
-      "id": "src_components_sections_industriessection_industriessection",
-      "label": "IndustriesSection()",
-      "degree": 3
-    },
-    {
       "id": "src_components_sections_servicessection_servicessection",
       "label": "ServicesSection()",
       "degree": 3
     },
     {
-      "id": "src_app_work_page_getprojects",
-      "label": "getProjects()",
+      "id": "src_components_sections_industriessection_industriessection",
+      "label": "IndustriesSection()",
+      "degree": 3
+    },
+    {
+      "id": "src_components_sections_technologiessection_technologiessection",
+      "label": "TechnologiesSection()",
       "degree": 3
     }
   ],
@@ -481,7 +481,7 @@
       ],
       "confidence": "INFERRED",
       "relation": "references",
-      "why": "inferred connection - not explicitly stated in source; crosses file types (code ↔ image); connects across different repos/directories"
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 image); connects across different repos/directories"
     },
     {
       "source": "About Banner",
@@ -492,7 +492,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "crosses file types (code ↔ image); connects across different repos/directories"
+      "why": "crosses file types (code \u2194 image); connects across different repos/directories"
     },
     {
       "source": "GET()",
@@ -528,41 +528,8 @@
       "why": "peripheral node `GET()` unexpectedly reaches hub `connectDB()`"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `dependencies` connect `Core Project Dependencies` to `Build and Development Tools`?",
-      "why": "High betweenness centrality (0.040) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `Button()` connect `button.jsx` to `layout.js`, `common/HeroSection.jsx`, `app/page.js`?",
-      "why": "High betweenness centrality (0.030) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `devDependencies` connect `Build and Development Tools` to `Next.js`?",
-      "why": "High betweenness centrality (0.028) - this node is a cross-community bridge."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `metadata`, `offerings`, `offerings` to the rest of the system?",
-      "why": "113 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `common/HeroSection.jsx` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.08961593172119488 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `Core Project Dependencies` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `app/page.js` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.10666666666666667 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 1983,
+    "output": 384
+  }
 }

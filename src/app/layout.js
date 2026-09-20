@@ -10,16 +10,27 @@ export const metadata = {
     default: "SyncWard Technologies | Full-Stack Development & Solutions",
     template: "%s | SyncWard Technologies",
   },
-  description: "SyncWard Technologies builds high-performance, scalable web applications using Next.js, MongoDB, and Tailwind CSS.",
-  keywords: ["Web Development", "Next.js Agency", "MongoDB", "Tailwind CSS", "SyncWard Technologies", "Full-Stack Solutions"],
+  description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions for modern businesses.",
+  keywords: [
+    "SyncWard", 
+    "SyncWard Technologies", 
+    "Sync Ward", 
+    "Custom Software Development", 
+    "Mobile App Development", 
+    "AI Automation", 
+    "Cloud API Solutions"
+  ],
   authors: [{ name: "SyncWard Technologies" }],
   creator: "SyncWard Technologies",
+  verification: {
+    google: "Gjv4GOFrVIi3Yw5CMqRv3UrRKzqBVFERczhEjgOtdi0",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://syncwardtech.com",
+    url: "https://syncwardtech.vercel.app", // Update this when you buy the custom domain
     title: "SyncWard Technologies | Full-Stack Development",
-    description: "Building scalable, high-performance web applications and custom digital products.",
+    description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions.",
     siteName: "SyncWard Technologies",
     images: [
       {
@@ -33,14 +44,32 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "SyncWard Technologies",
-    description: "Building scalable full-stack digital solutions.",
+    description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions.",
     images: ["/about-banner.jpg"],
   },
 };
 
 export default function RootLayout({ children }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: "SyncWard Technologies",
+    url: "https://syncwardtech.vercel.app",
+    logo: "https://syncwardtech.vercel.app/header-logo.png",
+    description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions for modern businesses.",
+    sameAs: [
+      "https://github.com/SyncWard"
+    ]
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${inter.className} bg-white text-slate-900 antialiased flex flex-col min-h-screen`}>
         <Navbar />
         <main className="flex-grow">
