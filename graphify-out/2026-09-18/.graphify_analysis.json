@@ -1,0 +1,522 @@
+{
+  "communities": {
+    "0": [
+      "src_app_about_page",
+      "src_app_about_page_aboutpage",
+      "src_app_about_page_metadata",
+      "src_app_about_page_teammembers",
+      "src_app_privacy_policy_page",
+      "src_app_privacy_policy_page_metadata",
+      "src_app_privacy_policy_page_privacypolicypage",
+      "src_app_services_ai_automation_page",
+      "src_app_services_ai_automation_page_aiautomationpage",
+      "src_app_services_ai_automation_page_offerings",
+      "src_app_services_cloud_api_page",
+      "src_app_services_cloud_api_page_cloudapipage",
+      "src_app_services_cloud_api_page_offerings",
+      "src_app_services_custom_software_page",
+      "src_app_services_custom_software_page_customsoftwarepage",
+      "src_app_services_custom_software_page_offerings",
+      "src_app_services_e_commerce_page",
+      "src_app_services_e_commerce_page_ecommercepage",
+      "src_app_services_e_commerce_page_offerings",
+      "src_app_services_maintenance_support_page",
+      "src_app_services_maintenance_support_page_maintenancesupportpage",
+      "src_app_services_maintenance_support_page_offerings",
+      "src_app_services_mobile_app_development_page",
+      "src_app_services_mobile_app_development_page_mobileappdevelopmentpage",
+      "src_app_services_mobile_app_development_page_offerings",
+      "src_app_services_page",
+      "src_app_services_page_metadata",
+      "src_app_services_page_servicespage",
+      "src_app_services_ui_ux_design_page",
+      "src_app_services_ui_ux_design_page_offerings",
+      "src_app_services_ui_ux_design_page_uiuxdesignpage",
+      "src_app_services_web_development_page",
+      "src_app_services_web_development_page_offerings",
+      "src_app_services_web_development_page_webdevelopmentpage",
+      "src_app_terms_page",
+      "src_app_terms_page_metadata",
+      "src_app_terms_page_termspage",
+      "src_components_common_herosection",
+      "src_components_common_herosection_herosection",
+      "src_components_sections_ctasection",
+      "src_components_sections_ctasection_ctasection",
+      "src_components_sections_servicessection_servicessection"
+    ],
+    "1": [
+      "base_ui_react",
+      "class_variance_authority",
+      "cn",
+      "framer_motion",
+      "imagekit",
+      "imagekitio_react",
+      "lucide_react",
+      "mongoose",
+      "next_auth",
+      "package_dependencies",
+      "package_dependencies_base_ui_react",
+      "package_dependencies_class_variance_authority",
+      "package_dependencies_cn",
+      "package_dependencies_framer_motion",
+      "package_dependencies_imagekit",
+      "package_dependencies_imagekitio_react",
+      "package_dependencies_lucide_react",
+      "package_dependencies_mongoose",
+      "package_dependencies_next",
+      "package_dependencies_next_auth",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_react_hook_form",
+      "package_dependencies_shadcn",
+      "package_dependencies_tw_animate_css",
+      "package_json_next",
+      "react",
+      "react_dom",
+      "react_hook_form",
+      "shadcn",
+      "tw_animate_css"
+    ],
+    "2": [
+      "src_app_industries_page",
+      "src_app_industries_page_industriespage",
+      "src_app_industries_page_metadata",
+      "src_app_page",
+      "src_app_page_home",
+      "src_app_technologies_page",
+      "src_app_technologies_page_metadata",
+      "src_app_technologies_page_technologiespage",
+      "src_components_sections_herosection",
+      "src_components_sections_herosection_herosection",
+      "src_components_sections_industriessection",
+      "src_components_sections_industriessection_industries",
+      "src_components_sections_industriessection_industriessection",
+      "src_components_sections_processsection",
+      "src_components_sections_processsection_processsection",
+      "src_components_sections_processsection_steps",
+      "src_components_sections_statsbar",
+      "src_components_sections_statsbar_statbox",
+      "src_components_sections_statsbar_statsbar",
+      "src_components_sections_technologiessection",
+      "src_components_sections_technologiessection_technologies",
+      "src_components_sections_technologiessection_technologiessection",
+      "src_components_sections_whychoosesection",
+      "src_components_sections_whychoosesection_features",
+      "src_components_sections_whychoosesection_whychoosesection"
+    ],
+    "3": [
+      "src_app_admin_login_page",
+      "src_app_admin_login_page_adminloginpage",
+      "src_app_admin_page",
+      "src_app_admin_page_admindashboard",
+      "src_app_admin_page_admindashboard_fetchdata",
+      "src_app_admin_projects_new_page",
+      "src_app_admin_projects_new_page_addprojectpage",
+      "src_app_contact_page",
+      "src_app_contact_page_contactpage",
+      "src_app_contact_page_metadata",
+      "src_app_not_found",
+      "src_app_not_found_notfound",
+      "src_components_common_contactform",
+      "src_components_common_contactform_contactform",
+      "src_components_layout_navbar",
+      "src_components_layout_navbar_navbar",
+      "src_components_sections_portfoliosection",
+      "src_components_sections_portfoliosection_portfoliosection",
+      "src_components_sections_portfoliosection_projects",
+      "src_components_sections_servicessection",
+      "src_components_sections_servicessection_services",
+      "src_components_ui_button",
+      "src_components_ui_button_button",
+      "src_components_ui_button_buttonvariants"
+    ],
+    "4": [
+      "components",
+      "components_aliases",
+      "components_aliases_components",
+      "components_aliases_hooks",
+      "components_aliases_lib",
+      "components_aliases_ui",
+      "components_aliases_utils",
+      "components_iconlibrary",
+      "components_menuaccent",
+      "components_menucolor",
+      "components_registries",
+      "components_rsc",
+      "components_rtl",
+      "components_schema",
+      "components_style",
+      "components_tailwind",
+      "components_tailwind_basecolor",
+      "components_tailwind_config",
+      "components_tailwind_css",
+      "components_tailwind_cssvariables",
+      "components_tailwind_prefix",
+      "components_tsx"
+    ],
+    "5": [
+      "babel_plugin_react_compiler",
+      "eslint",
+      "eslint_config_next",
+      "package",
+      "package_devdependencies",
+      "package_devdependencies_babel_plugin_react_compiler",
+      "package_devdependencies_eslint",
+      "package_devdependencies_eslint_config_next",
+      "package_devdependencies_tailwindcss_postcss",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_start",
+      "package_version",
+      "tailwindcss_postcss"
+    ],
+    "6": [
+      "src_app_api_contact_route",
+      "src_app_api_contact_route_get",
+      "src_app_api_contact_route_post",
+      "src_app_api_projects_route",
+      "src_app_api_projects_route_get",
+      "src_app_api_projects_route_post",
+      "src_app_api_route",
+      "src_app_api_route_post",
+      "src_app_work_page",
+      "src_app_work_page_getprojects",
+      "src_app_work_page_metadata",
+      "src_app_work_page_workpage",
+      "src_lib_mongodb",
+      "src_lib_mongodb_connectdb",
+      "src_models_contact",
+      "src_models_contact_contactschema",
+      "src_models_project",
+      "src_models_project_projectschema"
+    ],
+    "7": [
+      "agents_md",
+      "claude_md",
+      "mongodb_database",
+      "nextjs_framework",
+      "package_devdependencies_tailwindcss",
+      "public_about_banner_jpg",
+      "public_our_story_png",
+      "public_tech_mongodb_svg",
+      "public_tech_nextdotjs_svg",
+      "public_tech_tailwind_css_svg",
+      "readme",
+      "tailwindcss"
+    ],
+    "8": [
+      "src_app_layout",
+      "src_app_layout_inter",
+      "src_app_layout_metadata",
+      "src_app_layout_rootlayout",
+      "src_components_layout_footer",
+      "src_components_layout_footer_footer"
+    ],
+    "9": [
+      "jsconfig",
+      "jsconfig_compileroptions",
+      "jsconfig_compileroptions_paths"
+    ],
+    "10": [
+      "src_app_api_imagekit_auth_route",
+      "src_app_api_imagekit_auth_route_get",
+      "src_app_api_imagekit_auth_route_imagekit"
+    ],
+    "11": [
+      "src_components_sections_projectgallery",
+      "src_components_sections_projectgallery_categories",
+      "src_components_sections_projectgallery_projectgallery"
+    ],
+    "12": [
+      "src_middleware",
+      "src_middleware_config",
+      "src_middleware_middleware"
+    ],
+    "13": [
+      "eslint_config",
+      "eslint_config_eslintconfig"
+    ],
+    "14": [
+      "gemini_md",
+      "graphify_tool"
+    ],
+    "15": [
+      "next_config",
+      "next_config_nextconfig"
+    ],
+    "16": [
+      "postcss_config",
+      "postcss_config_config"
+    ],
+    "17": [
+      "src_app_api_admin_login_route",
+      "src_app_api_admin_login_route_post"
+    ],
+    "18": [
+      "src_app_api_login_route",
+      "src_app_api_login_route_post"
+    ],
+    "19": [
+      "public_background_about_hero_bg_jpg"
+    ],
+    "20": [
+      "public_background_contact_hero_bg_jpg"
+    ],
+    "21": [
+      "public_background_industries_hero_bg_jpg"
+    ],
+    "22": [
+      "public_background_legal_hero_bg_jpg"
+    ],
+    "23": [
+      "public_background_licensed_image_jpg"
+    ],
+    "24": [
+      "public_background_services_hero_bg_jpg"
+    ],
+    "25": [
+      "public_background_tech_hero_bg_jpg"
+    ],
+    "26": [
+      "public_background_work_hero_bg_jpg"
+    ],
+    "27": [
+      "public_bg_hero_png"
+    ],
+    "28": [
+      "public_header_logo_png"
+    ],
+    "29": [
+      "public_hero_bg_png"
+    ],
+    "30": [
+      "public_mongodb_copy_svg"
+    ],
+    "31": [
+      "public_team_full_stack_engineer_svg"
+    ],
+    "32": [
+      "public_team_lead_svg"
+    ],
+    "33": [
+      "public_team_project_manager_svg"
+    ],
+    "34": [
+      "public_team_ui_ux_design_svg"
+    ],
+    "35": [
+      "public_tech_aws_svg"
+    ],
+    "36": [
+      "public_tech_docker_svg"
+    ],
+    "37": [
+      "public_tech_figma_svg"
+    ],
+    "38": [
+      "public_tech_firebase_svg"
+    ],
+    "39": [
+      "public_tech_git_svg"
+    ],
+    "40": [
+      "public_tech_graphql_svg"
+    ],
+    "41": [
+      "public_tech_kubernetes_svg"
+    ],
+    "42": [
+      "public_tech_nodejs_svg"
+    ],
+    "43": [
+      "public_tech_postgresql_svg"
+    ],
+    "44": [
+      "public_tech_python_svg"
+    ],
+    "45": [
+      "public_tech_react_svg"
+    ],
+    "46": [
+      "public_tech_redis_svg"
+    ],
+    "47": [
+      "public_tech_typescript_svg"
+    ],
+    "48": [
+      "public_whychooseimage_png"
+    ],
+    "49": [
+      "src_lib_utils"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07897793263646923,
+    "1": 0.06451612903225806,
+    "2": 0.10666666666666667,
+    "3": 0.12681159420289856,
+    "4": 0.09090909090909091,
+    "5": 0.1111111111111111,
+    "6": 0.19607843137254902,
+    "7": 0.16666666666666666,
+    "8": 0.3333333333333333,
+    "9": 0.6666666666666666,
+    "10": 0.6666666666666666,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_components_common_herosection_herosection",
+      "label": "HeroSection()",
+      "degree": 15
+    },
+    {
+      "id": "src_components_ui_button_button",
+      "label": "Button()",
+      "degree": 14
+    },
+    {
+      "id": "src_lib_mongodb_connectdb",
+      "label": "connectDB()",
+      "degree": 11
+    },
+    {
+      "id": "src_components_sections_ctasection_ctasection",
+      "label": "CTASection()",
+      "degree": 10
+    },
+    {
+      "id": "components_aliases",
+      "label": "aliases",
+      "degree": 6
+    },
+    {
+      "id": "components_tailwind",
+      "label": "tailwind",
+      "degree": 6
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "src_components_sections_servicessection_servicessection",
+      "label": "ServicesSection()",
+      "degree": 3
+    },
+    {
+      "id": "src_components_sections_industriessection_industriessection",
+      "label": "IndustriesSection()",
+      "degree": 3
+    },
+    {
+      "id": "src_components_sections_technologiessection_technologiessection",
+      "label": "TechnologiesSection()",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Tailwind CSS Logo",
+      "target": "tailwindcss",
+      "source_files": [
+        "public/tech/tailwind-css.svg",
+        "package.json"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 image); connects across different repos/directories"
+    },
+    {
+      "source": "About Banner",
+      "target": "tailwindcss",
+      "source_files": [
+        "public/about-banner.jpg",
+        "package.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (code \u2194 image); connects across different repos/directories"
+    },
+    {
+      "source": "GET()",
+      "target": "connectDB()",
+      "source_files": [
+        "src/app/api/contact/route.js",
+        "src/lib/mongodb.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `GET()` unexpectedly reaches hub `connectDB()`"
+    },
+    {
+      "source": "POST()",
+      "target": "connectDB()",
+      "source_files": [
+        "src/app/api/contact/route.js",
+        "src/lib/mongodb.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `POST()` unexpectedly reaches hub `connectDB()`"
+    },
+    {
+      "source": "GET()",
+      "target": "connectDB()",
+      "source_files": [
+        "src/app/api/projects/route.js",
+        "src/lib/mongodb.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `GET()` unexpectedly reaches hub `connectDB()`"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
