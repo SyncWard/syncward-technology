@@ -38,7 +38,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center z-50">
           <Image 
-            src="/Header-logo.Png" 
+            src="/Header-logo.png" 
             alt="SyncWard Technologies" 
             width={180} 
             height={45} 

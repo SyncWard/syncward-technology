@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4 col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center">
               <Image 
-                src="/Header-logo.Png" 
+                src="/Header-logo.png" 
                 alt="SyncWard Technologies" 
                 width={150} 
                 height={35} 
