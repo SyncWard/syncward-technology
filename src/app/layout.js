@@ -10,15 +10,17 @@ export const metadata = {
     default: "SyncWard Technologies | Full-Stack Development & Solutions",
     template: "%s | SyncWard Technologies",
   },
-  description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions for modern businesses.",
+  description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions.",
   keywords: [
     "SyncWard", 
     "SyncWard Technologies", 
+    "syncwardtech",
     "Sync Ward", 
     "Custom Software Development", 
     "Mobile App Development", 
     "AI Automation", 
-    "Cloud API Solutions"
+    "Cloud API Solutions",
+    "Sync Ward"
   ],
   authors: [{ name: "SyncWard Technologies" }],
   creator: "SyncWard Technologies",
