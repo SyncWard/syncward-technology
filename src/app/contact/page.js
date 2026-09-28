@@ -35,8 +35,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-[15px] font-bold text-slate-900 mb-1">Email Us</h4>
-                  <a href="mailto:connect@syncward.com" className="text-slate-500 text-[14px] hover:text-[#286ef0] transition-colors">
-                    connect@syncward.com
+                  <a href="mailto:connect.syncwardtech@gmail.com" className="text-slate-500 text-[14px] hover:text-[#286ef0] transition-colors">
+                    connect.syncwardtech@gmail.com
                   </a>
                 </div>
               </div>
@@ -48,8 +48,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-[15px] font-bold text-slate-900 mb-1">Call Us</h4>
-                  <a href="tel:+910000000000" className="text-slate-500 text-[14px] hover:text-[#286ef0] transition-colors">
-                    +91 98765 43210
+                  <a href="tel:+919561556265" className="text-slate-500 text-[14px] hover:text-[#286ef0] transition-colors">
+                    +91 9561556265
                   </a>
                 </div>
               </div>

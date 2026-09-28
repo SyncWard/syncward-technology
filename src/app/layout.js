@@ -60,7 +60,9 @@ export default function RootLayout({ children }) {
     logo: "https://syncwardtech.vercel.app/header-logo.png",
     description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions for modern businesses.",
     sameAs: [
-      "https://github.com/SyncWard"
+      "https://github.com/SyncWard",
+      "https://www.linkedin.com/company/syncward-technology/",
+      "https://www.instagram.com/syncwardtech/"
     ]
   };
 

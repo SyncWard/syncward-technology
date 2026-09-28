@@ -1,15 +1,15 @@
-# Graph Report - SyncWard-Technologies  (2026-09-28)
+# Graph Report - SyncWard-Technologies  (2026-09-20)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 261 nodes · 285 edges · 57 communities (10 shown, 42 thin omitted)
+- 257 nodes · 288 edges · 53 communities (10 shown, 38 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `08a55f54`
+- Built from commit: `3631ecd3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -43,14 +43,10 @@
 - Hero Background Isometric
 - Hero Background Isometric Duplicate
 - MongoDB Logo
-- Photo of Abhi Bhujale
 - Full-Stack Engineer Avatar
 - Tech Lead Avatar
 - Project Manager Avatar
-- Photo of Shubham Tade
 - UI/UX Designer Avatar
-- Photo of Venkat Birajdar
-- Photo of Vishnu Survas
 - AWS Logo
 - Docker Logo
 - Figma Logo
@@ -68,7 +64,7 @@
 - SyncWard Technology
 
 ## God Nodes (most connected - your core abstractions)
-1. `HeroSection()` - 14 edges
+1. `HeroSection()` - 15 edges
 2. `Button()` - 14 edges
 3. `connectDB()` - 11 edges
 4. `CTASection()` - 10 edges
@@ -97,7 +93,7 @@
 ## Hyperedges (group relationships)
 - **Core Technology Stack** — nextjs_framework, mongodb_database, tailwindcss [EXTRACTED 1.00]
 
-## Communities (57 total, 42 thin omitted)
+## Communities (53 total, 38 thin omitted)
 
 ### Community 0 - "common/HeroSection.jsx"
 Cohesion: 0.09
@@ -116,8 +112,8 @@ Cohesion: 0.09
 Nodes (21): aliases, components, hooks, lib, ui, utils, iconLibrary, menuAccent (+13 more)
 
 ### Community 4 - "button.jsx"
-Cohesion: 0.13
-Nodes (5): AdminDashboard(), metadata, projects, Button(), buttonVariants
+Cohesion: 0.15
+Nodes (6): AdminDashboard(), metadata, ContactForm(), projects, Button(), buttonVariants
 
 ### Community 5 - "Build and Development Tools"
 Cohesion: 0.11
@@ -132,29 +128,29 @@ Cohesion: 0.17
 Nodes (9): MongoDB, Next.js, tailwindcss, About Banner, Our Story UI, MongoDB Logo, Next.js Logo, Tailwind CSS Logo (+1 more)
 
 ### Community 8 - "layout.js"
-Cohesion: 0.40
-Nodes (3): inter, metadata, Footer()
+Cohesion: 0.32
+Nodes (4): inter, metadata, Footer(), Navbar()
 
 ### Community 9 - "technologies/page.js"
 Cohesion: 0.40
 Nodes (3): metadata, technologies, TechnologiesSection()
 
 ## Knowledge Gaps
-- **117 isolated node(s):** `metadata`, `offerings`, `offerings`, `offerings`, `offerings` (+112 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 162 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **42 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **113 isolated node(s):** `metadata`, `offerings`, `offerings`, `offerings`, `offerings` (+108 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 156 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **38 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `dependencies` connect `Core Project Dependencies` to `Build and Development Tools`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
-- **Why does `Button()` connect `button.jsx` to `common/HeroSection.jsx`, `app/page.js`?**
-  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+  _High betweenness centrality (0.040) - this node is a cross-community bridge._
+- **Why does `Button()` connect `button.jsx` to `layout.js`, `common/HeroSection.jsx`, `app/page.js`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Why does `devDependencies` connect `Build and Development Tools` to `Next.js`?**
-  _High betweenness centrality (0.027) - this node is a cross-community bridge._
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
 - **What connects `metadata`, `offerings`, `offerings` to the rest of the system?**
-  _117 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _113 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `common/HeroSection.jsx` be split into smaller, more focused modules?**
   _Cohesion score 0.08961593172119488 - nodes in this community are weakly interconnected._
 - **Should `Core Project Dependencies` be split into smaller, more focused modules?**

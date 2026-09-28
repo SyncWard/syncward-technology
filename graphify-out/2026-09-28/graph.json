@@ -20,18 +20,6 @@
   },
   "nodes": [
     {
-      "id": "src_app_about_page_aboutpage",
-      "label": "AboutPage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "common/HeroSection.jsx",
-      "file_type": "code",
-      "norm_label": "aboutpage()",
-      "source_file": "src/app/about/page.js",
-      "source_location": "L34"
-    },
-    {
       "id": "src_app_privacy_policy_page_privacypolicypage",
       "label": "PrivacyPolicyPage()",
       "_callable": true,
@@ -174,6 +162,17 @@
       "norm_label": "ctasection()",
       "source_file": "src/components/sections/CTASection.jsx",
       "source_location": "L5"
+    },
+    {
+      "id": "src_app_about_page_aboutpage",
+      "label": "AboutPage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "aboutpage()",
+      "source_file": "src/app/about/page.js",
+      "source_location": "L34"
     },
     {
       "id": "src_app_api_imagekit_auth_route_get",
@@ -428,18 +427,6 @@
       "source_location": "L10"
     },
     {
-      "id": "src_app_contact_page_contactpage",
-      "label": "ContactPage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "button.jsx",
-      "file_type": "code",
-      "norm_label": "contactpage()",
-      "source_file": "src/app/contact/page.js",
-      "source_location": "L11"
-    },
-    {
       "id": "src_app_not_found_notfound",
       "label": "NotFound()",
       "_callable": true,
@@ -464,18 +451,6 @@
       "source_location": "L7"
     },
     {
-      "id": "src_components_layout_navbar_navbar",
-      "label": "Navbar()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "button.jsx",
-      "file_type": "code",
-      "norm_label": "navbar()",
-      "source_file": "src/components/layout/Navbar.jsx",
-      "source_location": "L10"
-    },
-    {
       "id": "src_components_sections_portfoliosection_portfoliosection",
       "label": "PortfolioSection()",
       "_callable": true,
@@ -498,6 +473,29 @@
       "norm_label": "button()",
       "source_file": "src/components/ui/button.jsx",
       "source_location": "L42"
+    },
+    {
+      "id": "src_components_layout_navbar_navbar",
+      "label": "Navbar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "layout.js",
+      "file_type": "code",
+      "norm_label": "navbar()",
+      "source_file": "src/components/layout/Navbar.jsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_app_contact_page_contactpage",
+      "label": "ContactPage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "contactpage()",
+      "source_file": "src/app/contact/page.js",
+      "source_location": "L11"
     },
     {
       "id": "src_app_api_contact_route_get",
@@ -601,7 +599,6 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "rootlayout()",
       "source_file": "src/app/layout.js",
@@ -613,7 +610,6 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "footer()",
       "source_file": "src/components/layout/Footer.jsx",
@@ -642,39 +638,6 @@
       "norm_label": "technologiessection()",
       "source_file": "src/components/sections/TechnologiesSection.jsx",
       "source_location": "L24"
-    },
-    {
-      "id": "src_app_about_page",
-      "label": "about/page.js",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "common/HeroSection.jsx",
-      "file_type": "code",
-      "norm_label": "about/page.js",
-      "source_file": "src/app/about/page.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_app_about_page_metadata",
-      "label": "metadata",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "common/HeroSection.jsx",
-      "file_type": "code",
-      "norm_label": "metadata",
-      "source_file": "src/app/about/page.js",
-      "source_location": "L6"
-    },
-    {
-      "id": "src_app_about_page_teammembers",
-      "label": "teamMembers",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "common/HeroSection.jsx",
-      "file_type": "code",
-      "norm_label": "teammembers",
-      "source_file": "src/app/about/page.js",
-      "source_location": "L11"
     },
     {
       "id": "src_app_privacy_policy_page",
@@ -917,6 +880,36 @@
       "norm_label": "ctasection.jsx",
       "source_file": "src/components/sections/CTASection.jsx",
       "source_location": "L1"
+    },
+    {
+      "id": "src_app_about_page",
+      "label": "about/page.js",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "about/page.js",
+      "source_file": "src/app/about/page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_about_page_metadata",
+      "label": "metadata",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "metadata",
+      "source_file": "src/app/about/page.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "src_app_about_page_teammembers",
+      "label": "teamMembers",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "teammembers",
+      "source_file": "src/app/about/page.js",
+      "source_location": "L11"
     },
     {
       "id": "package_dependencies",
@@ -1909,28 +1902,6 @@
       "source_location": "L1"
     },
     {
-      "id": "src_app_contact_page",
-      "label": "contact/page.js",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "button.jsx",
-      "file_type": "code",
-      "norm_label": "contact/page.js",
-      "source_file": "src/app/contact/page.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_app_contact_page_metadata",
-      "label": "metadata",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "button.jsx",
-      "file_type": "code",
-      "norm_label": "metadata",
-      "source_file": "src/app/contact/page.js",
-      "source_location": "L6"
-    },
-    {
       "id": "src_app_not_found",
       "label": "not-found.js",
       "_origin": "ast",
@@ -1950,17 +1921,6 @@
       "file_type": "code",
       "norm_label": "contactform.jsx",
       "source_file": "src/components/common/ContactForm.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_components_layout_navbar",
-      "label": "Navbar.jsx",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "button.jsx",
-      "file_type": "code",
-      "norm_label": "navbar.jsx",
-      "source_file": "src/components/layout/Navbar.jsx",
       "source_location": "L1"
     },
     {
@@ -2006,6 +1966,37 @@
       "norm_label": "buttonvariants",
       "source_file": "src/components/ui/button.jsx",
       "source_location": "L5"
+    },
+    {
+      "id": "src_components_layout_navbar",
+      "label": "Navbar.jsx",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "layout.js",
+      "file_type": "code",
+      "norm_label": "navbar.jsx",
+      "source_file": "src/components/layout/Navbar.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_contact_page",
+      "label": "contact/page.js",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "contact/page.js",
+      "source_file": "src/app/contact/page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_contact_page_metadata",
+      "label": "metadata",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "metadata",
+      "source_file": "src/app/contact/page.js",
+      "source_location": "L6"
     },
     {
       "id": "package",
@@ -2353,7 +2344,6 @@
       "label": "layout.js",
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "layout.js",
       "source_file": "src/app/layout.js",
@@ -2364,7 +2354,6 @@
       "label": "inter",
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "inter",
       "source_file": "src/app/layout.js",
@@ -2375,7 +2364,6 @@
       "label": "metadata",
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "metadata",
       "source_file": "src/app/layout.js",
@@ -2386,7 +2374,6 @@
       "label": "Footer.jsx",
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "footer.jsx",
       "source_file": "src/components/layout/Footer.jsx",
@@ -2879,7 +2866,6 @@
       "id": "public_team_abhi_bhujale",
       "label": "Photo of Abhi Bhujale",
       "community": 33,
-      "community_name": "Photo of Abhi Bhujale",
       "file_type": "image",
       "norm_label": "photo of abhi bhujale",
       "rationale": "Portrait photo of a team member used for profile or team page.",
@@ -2889,7 +2875,6 @@
       "id": "public_team_shubham_tade",
       "label": "Photo of Shubham Tade",
       "community": 37,
-      "community_name": "Photo of Shubham Tade",
       "file_type": "image",
       "norm_label": "photo of shubham tade",
       "rationale": "Portrait photo of a team member, stylized in black and white.",
@@ -2899,7 +2884,6 @@
       "id": "public_team_venkat_birajdar",
       "label": "Photo of Venkat Birajdar",
       "community": 39,
-      "community_name": "Photo of Venkat Birajdar",
       "file_type": "image",
       "norm_label": "photo of venkat birajdar",
       "rationale": "Portrait photo of a team member used for profile or team page.",
@@ -2909,7 +2893,6 @@
       "id": "public_team_vishnu_survas",
       "label": "Photo of Vishnu Survas",
       "community": 40,
-      "community_name": "Photo of Vishnu Survas",
       "file_type": "image",
       "norm_label": "photo of vishnu survas",
       "rationale": "Portrait photo of a team member used for profile or team page.",

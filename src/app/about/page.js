@@ -12,22 +12,22 @@ const teamMembers = [
   {
     name: "Vishnu Survase",
     role: "Founder & CEO",
-    image: "/team/lead.svg", // public/team/ folder me image daal dena
+    image: "/team/vishnu-survas.png", // public/team/ folder me image daal dena
   },
   {
     name: "Shubham Tade",
-    role: "Chief Technology Officer & AI ML Engineer",
-    image: "/team/project-manager.svg",
+    role: "Co-Founder & AI ML Engineer",
+    image: "/team/shubham-tade.jpeg",
   },
   {
     name: "Venkat Birajdar",
     role: "Digital marketing Associate",
-    image: "/team/ui-ux-design.svg",
+    image: "/team/Venkat Birajdar.png",
   },
   {
-    name: "Rohan Mehta",
-    role: "Lead Developer",
-    image: "/team/full-stack-engineer.svg",
+    name: "Abhishek Bhujale",
+    role: "Junior Developer",
+    image: "/team/Abhi-Bhujale.png",
   },
 ];
 
