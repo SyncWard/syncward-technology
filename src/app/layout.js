@@ -62,7 +62,8 @@ export default function RootLayout({ children }) {
     sameAs: [
       "https://github.com/SyncWard",
       "https://www.linkedin.com/company/syncward-technology/",
-      "https://www.instagram.com/syncwardtech/"
+      "https://www.instagram.com/syncwardtech/",
+      "https://x.com/SyncWardTezs"
     ]
   };
 
