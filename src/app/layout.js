@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "SyncWard Technologies | Full-Stack Development & Solutions",
+    default: "SyncWard Technologies | Full-Stack Development & IT Solutions",
     template: "%s | SyncWard Technologies",
   },
   description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions.",
@@ -63,7 +63,8 @@ export default function RootLayout({ children }) {
       "https://github.com/SyncWard",
       "https://www.linkedin.com/company/syncward-technology/",
       "https://www.instagram.com/syncwardtech/",
-      "https://x.com/SyncWardTezs"
+      "https://x.com/SyncWardTezs",
+      "https://www.facebook.com/share/1FjaZLQVG3/"
     ]
   };
 
