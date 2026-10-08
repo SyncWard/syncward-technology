@@ -1,6 +1,6 @@
 export default function sitemap() {
   // Update this to your custom domain (e.g., 'https://syncward.com') once purchased
-  const baseUrl = 'https://syncwardtech.vercel.app';
+  const baseUrl = 'https://www.syncwardtech.co.in'
 
   // Public endpoints extracted directly from your build logs
   const routes = [

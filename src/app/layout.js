@@ -30,7 +30,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://syncwardtech.vercel.app", // Update this when you buy the custom domain
+    url: "https://www.syncwardtech.co.in", // Update this when you buy the custom domain
     title: "SyncWard Technologies | Full-Stack Development",
     description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions.",
     siteName: "SyncWard Technologies",
@@ -56,15 +56,15 @@ export default function RootLayout({ children }) {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     name: "SyncWard Technologies",
-    url: "https://syncwardtech.vercel.app",
-    logo: "https://syncwardtech.vercel.app/header-logo.png",
+    url: "https://www.syncwardtech.co.in",
+    logo: "https://www.syncwardtech.co.in/header-logo.png",
     description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions for modern businesses.",
     sameAs: [
       "https://github.com/SyncWard",
-      "https://www.linkedin.com/company/syncward-technology/",
-      "https://www.instagram.com/syncwardtech/",
+      "https://www.linkedin.com/company/syncward-technology",
+      "https://www.instagram.com/syncwardtech",
       "https://x.com/SyncWardTezs",
-      "https://www.facebook.com/share/1FjaZLQVG3/"
+      "https://www.facebook.com/share/1FjaZLQVG3"
     ]
   };
 

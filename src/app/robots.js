@@ -1,5 +1,5 @@
 export default function robots() {
-  const baseUrl = 'https://syncwardtech.vercel.app';
+  const baseUrl = 'https://www.syncwardtech.co.in';
 
   return {
     rules: {
