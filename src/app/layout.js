@@ -25,7 +25,7 @@ export const metadata = {
   authors: [{ name: "SyncWard Technologies" }],
   creator: "SyncWard Technologies",
   verification: {
-    google: "4X9X5NqPEfCv9T5Zm",
+    google: "4X9X5NqPEfCv9T5ZmIi6B-uZOQBO1ilHP32mLUcyeHI",
   },
   openGraph: {
     type: "website",
