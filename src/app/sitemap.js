@@ -12,7 +12,7 @@ export default function sitemap() {
     '/services/custom-software',
     '/services/e-commerce',
     '/services/maintenance-support',
-    '/services/mobile-app-development',
+    '/services/mobile-apps',
     '/services/ui-ux-design',
     '/services/web-development',
     '/industries',

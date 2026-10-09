@@ -104,18 +104,6 @@
       "source_location": "L17"
     },
     {
-      "id": "src_app_services_mobile_apps_page_mobileappdevelopmentpage",
-      "label": "MobileAppDevelopmentPage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "common/HeroSection.jsx",
-      "file_type": "code",
-      "norm_label": "mobileappdevelopmentpage()",
-      "source_file": "src/app/services/mobile-apps/page.js",
-      "source_location": "L17"
-    },
-    {
       "id": "src_app_services_ui_ux_design_page_uiuxdesignpage",
       "label": "UIUXDesignPage()",
       "_callable": true,
@@ -174,6 +162,17 @@
       "norm_label": "ctasection()",
       "source_file": "src/components/sections/CTASection.jsx",
       "source_location": "L5"
+    },
+    {
+      "id": "src_app_services_mobile_apps_page_mobileappdevelopmentpage",
+      "label": "MobileAppDevelopmentPage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "mobileappdevelopmentpage()",
+      "source_file": "src/app/services/mobile-apps/page.js",
+      "source_location": "L17"
     },
     {
       "id": "src_app_api_imagekit_auth_route_get",
@@ -361,7 +360,6 @@
       "_callable": true,
       "_origin": "ast",
       "community": 20,
-      "community_name": "robots.js",
       "file_type": "code",
       "norm_label": "robots()",
       "source_file": "src/app/robots.js",
@@ -373,7 +371,6 @@
       "_callable": true,
       "_origin": "ast",
       "community": 21,
-      "community_name": "sitemap.js",
       "file_type": "code",
       "norm_label": "sitemap()",
       "source_file": "src/app/sitemap.js",
@@ -426,18 +423,6 @@
       "norm_label": "addprojectpage()",
       "source_file": "src/app/admin/projects/new/page.js",
       "source_location": "L10"
-    },
-    {
-      "id": "src_app_contact_page_contactpage",
-      "label": "ContactPage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "button.jsx",
-      "file_type": "code",
-      "norm_label": "contactpage()",
-      "source_file": "src/app/contact/page.js",
-      "source_location": "L11"
     },
     {
       "id": "src_app_not_found_notfound",
@@ -498,6 +483,17 @@
       "norm_label": "button()",
       "source_file": "src/components/ui/button.jsx",
       "source_location": "L42"
+    },
+    {
+      "id": "src_app_contact_page_contactpage",
+      "label": "ContactPage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "contactpage()",
+      "source_file": "src/app/contact/page.js",
+      "source_location": "L11"
     },
     {
       "id": "src_app_api_contact_route_get",
@@ -601,7 +597,6 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "rootlayout()",
       "source_file": "src/app/layout.js",
@@ -613,7 +608,6 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "footer()",
       "source_file": "src/components/layout/Footer.jsx",
@@ -809,28 +803,6 @@
       "source_location": "L8"
     },
     {
-      "id": "src_app_services_mobile_apps_page",
-      "label": "mobile-apps/page.js",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "common/HeroSection.jsx",
-      "file_type": "code",
-      "norm_label": "mobile-apps/page.js",
-      "source_file": "src/app/services/mobile-apps/page.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_app_services_mobile_apps_page_offerings",
-      "label": "offerings",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "common/HeroSection.jsx",
-      "file_type": "code",
-      "norm_label": "offerings",
-      "source_file": "src/app/services/mobile-apps/page.js",
-      "source_location": "L8"
-    },
-    {
       "id": "src_app_services_ui_ux_design_page",
       "label": "ui-ux-design/page.js",
       "_origin": "ast",
@@ -917,6 +889,26 @@
       "norm_label": "ctasection.jsx",
       "source_file": "src/components/sections/CTASection.jsx",
       "source_location": "L1"
+    },
+    {
+      "id": "src_app_services_mobile_apps_page",
+      "label": "mobile-apps/page.js",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "mobile-apps/page.js",
+      "source_file": "src/app/services/mobile-apps/page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_services_mobile_apps_page_offerings",
+      "label": "offerings",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "offerings",
+      "source_file": "src/app/services/mobile-apps/page.js",
+      "source_location": "L8"
     },
     {
       "id": "package_dependencies",
@@ -1616,7 +1608,6 @@
       "label": "robots.js",
       "_origin": "ast",
       "community": 20,
-      "community_name": "robots.js",
       "file_type": "code",
       "norm_label": "robots.js",
       "source_file": "src/app/robots.js",
@@ -1627,7 +1618,6 @@
       "label": "sitemap.js",
       "_origin": "ast",
       "community": 21,
-      "community_name": "sitemap.js",
       "file_type": "code",
       "norm_label": "sitemap.js",
       "source_file": "src/app/sitemap.js",
@@ -1909,28 +1899,6 @@
       "source_location": "L1"
     },
     {
-      "id": "src_app_contact_page",
-      "label": "contact/page.js",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "button.jsx",
-      "file_type": "code",
-      "norm_label": "contact/page.js",
-      "source_file": "src/app/contact/page.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_app_contact_page_metadata",
-      "label": "metadata",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "button.jsx",
-      "file_type": "code",
-      "norm_label": "metadata",
-      "source_file": "src/app/contact/page.js",
-      "source_location": "L6"
-    },
-    {
       "id": "src_app_not_found",
       "label": "not-found.js",
       "_origin": "ast",
@@ -2006,6 +1974,26 @@
       "norm_label": "buttonvariants",
       "source_file": "src/components/ui/button.jsx",
       "source_location": "L5"
+    },
+    {
+      "id": "src_app_contact_page",
+      "label": "contact/page.js",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "contact/page.js",
+      "source_file": "src/app/contact/page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_contact_page_metadata",
+      "label": "metadata",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "metadata",
+      "source_file": "src/app/contact/page.js",
+      "source_location": "L6"
     },
     {
       "id": "package",
@@ -2353,7 +2341,6 @@
       "label": "layout.js",
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "layout.js",
       "source_file": "src/app/layout.js",
@@ -2364,7 +2351,6 @@
       "label": "inter",
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "inter",
       "source_file": "src/app/layout.js",
@@ -2375,7 +2361,6 @@
       "label": "metadata",
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "metadata",
       "source_file": "src/app/layout.js",
@@ -2386,7 +2371,6 @@
       "label": "Footer.jsx",
       "_origin": "ast",
       "community": 8,
-      "community_name": "layout.js",
       "file_type": "code",
       "norm_label": "footer.jsx",
       "source_file": "src/components/layout/Footer.jsx",
@@ -2925,7 +2909,6 @@
       "author": null,
       "captured_at": null,
       "community": 55,
-      "community_name": "SW Logo",
       "contributor": null,
       "file_type": "image",
       "norm_label": "sw logo",

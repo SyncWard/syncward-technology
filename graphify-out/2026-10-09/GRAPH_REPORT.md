@@ -1,15 +1,15 @@
-# Graph Report - SyncWard-Technologies  (2026-10-09)
+# Graph Report - SyncWard-Technologies  (2026-09-28)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 262 nodes · 283 edges · 58 communities (10 shown, 43 thin omitted)
+- 261 nodes · 285 edges · 57 communities (10 shown, 42 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a99a21a1`
+- Built from commit: `08a55f54`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -65,14 +65,13 @@
 - Redis Logo
 - TypeScript Logo
 - Why Choose SyncWard UI
-- SW Logo
 - SyncWard Technology
 
 ## God Nodes (most connected - your core abstractions)
-1. `Button()` - 14 edges
-2. `HeroSection()` - 13 edges
+1. `HeroSection()` - 14 edges
+2. `Button()` - 14 edges
 3. `connectDB()` - 11 edges
-4. `CTASection()` - 9 edges
+4. `CTASection()` - 10 edges
 5. `aliases` - 6 edges
 6. `tailwind` - 6 edges
 7. `scripts` - 5 edges
@@ -98,7 +97,7 @@
 ## Hyperedges (group relationships)
 - **Core Technology Stack** — nextjs_framework, mongodb_database, tailwindcss [EXTRACTED 1.00]
 
-## Communities (58 total, 43 thin omitted)
+## Communities (57 total, 42 thin omitted)
 
 ### Community 0 - "common/HeroSection.jsx"
 Cohesion: 0.09
@@ -141,9 +140,9 @@ Cohesion: 0.40
 Nodes (3): metadata, technologies, TechnologiesSection()
 
 ## Knowledge Gaps
-- **118 isolated node(s):** `metadata`, `teamMembers`, `metadata`, `offerings`, `offerings` (+113 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 163 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **43 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **117 isolated node(s):** `metadata`, `offerings`, `offerings`, `offerings`, `offerings` (+112 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 162 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **42 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -154,10 +153,10 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **Why does `devDependencies` connect `Build and Development Tools` to `Next.js`?**
   _High betweenness centrality (0.027) - this node is a cross-community bridge._
-- **What connects `metadata`, `teamMembers`, `metadata` to the rest of the system?**
-  _118 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `metadata`, `offerings`, `offerings` to the rest of the system?**
+  _117 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `common/HeroSection.jsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.08677098150782361 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08961593172119488 - nodes in this community are weakly interconnected._
 - **Should `Core Project Dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `app/page.js` be split into smaller, more focused modules?**

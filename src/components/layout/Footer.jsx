@@ -56,7 +56,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4 text-[13px] text-[#a0aabf]">
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-[#286ef0] shrink-0" />
-                <a href="mailto:connect.syncwardtech@gmail.com" className="hover:text-white transition-colors">connect.syncwardtech@gmail.com</a>
+                <a href="mailto:connect@syncwardtech.co.in" className="hover:text-white transition-colors">connect@syncwardtech.co.in</a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-[#286ef0] shrink-0" />

@@ -35,8 +35,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-[15px] font-bold text-slate-900 mb-1">Email Us</h4>
-                  <a href="mailto:connect.syncwardtech@gmail.com" className="text-slate-500 text-[14px] hover:text-[#286ef0] transition-colors">
-                    connect.syncwardtech@gmail.com
+                  <a href="mailto:connect@syncwardtech.co.in" className="text-slate-500 text-[14px] hover:text-[#286ef0] transition-colors">
+                    connect@syncwardtech.co.in
                   </a>
                 </div>
               </div>
