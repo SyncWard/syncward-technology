@@ -64,8 +64,8 @@ export default function AboutPage() {
             {/* Key Stats */}
             <div className="grid grid-cols-2 gap-6 mt-10 pt-10 border-t border-slate-100">
               <div>
-                <h4 className="text-4xl font-bold text-[#286ef0] mb-2">50+</h4>
-                <p className="text-slate-500 text-sm font-medium">Projects Delivered</p>
+                <h4 className="text-4xl font-bold text-[#286ef0] mb-2">10+</h4>
+                <p className="text-slate-500 text-sm font-medium">Active Deployments</p>
               </div>
               <div>
                 <h4 className="text-4xl font-bold text-[#286ef0] mb-2">99%</h4>

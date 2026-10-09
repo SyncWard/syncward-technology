@@ -28,9 +28,9 @@ export default function StatsBar() {
         viewport={{ once: true, margin: "-50px" }}
         className="bg-[#030914]/90 backdrop-blur-xl border border-white/10 shadow-[0_20px_40px_rgba(0,0,0,0.6)] rounded-2xl md:rounded-3xl py-8 md:py-12 px-6 md:px-10 grid grid-cols-2 md:grid-cols-4 gap-y-8 md:gap-y-0 gap-x-4 md:gap-x-8"
       >
-        <StatBox number="50+" label="Projects Delivered" />
-        <StatBox number="20+" label="Happy Clients" />
-        <StatBox number="5+" label="Years of Experience" />
+        <StatBox number="10+" label="Active Deployments" />
+        <StatBox number="99.9%" label="System Uptime" />
+        <StatBox number="5+" label="Years Combined Experience" />
         <StatBox number="100%" label="Client Satisfaction" />
       </motion.div>
     </div>
