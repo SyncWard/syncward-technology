@@ -63,7 +63,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-4">5. Contact Us</h2>
               <p className="text-[15px] leading-relaxed">
-                If you have questions or comments about this notice, you may email us at <strong>connect@syncward.com</strong> or by post to:
+                If you have questions or comments about this notice, you may email us at <strong>connect@syncwardtech.co.in</strong> or by post to:
                 <br /><br />
                 SyncWard Technologies<br />
                 Pune, Maharashtra, India

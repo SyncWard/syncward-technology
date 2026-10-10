@@ -62,7 +62,7 @@ export default function ContactPage() {
                 <div>
                   <h4 className="text-[15px] font-bold text-slate-900 mb-1">Visit Us</h4>
                   <p className="text-slate-500 text-[14px]">
-                    Kal Nimbala, Maharashtra, India
+                    Pune, Maharashtra, India
                   </p>
                 </div>
               </div>
@@ -80,7 +80,7 @@ export default function ContactPage() {
           <div className="relative w-full h-[400px] md:h-[450px] rounded-3xl overflow-hidden mt-20 border border-slate-100 shadow-sm bg-slate-900 group">
             
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7593.303146534274!2d76.49022185869138!3d17.901738599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcf5f06e188e0ab%3A0xe55fb3b2f03acc1c!2sZ.p.p.s%20School%20Kal%20Nimbala!5e0!3m2!1sen!2sin!4v1789226082328!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.93187091679!2d73.78056541570532!3d18.52487059999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0, filter: "invert(90%) hue-rotate(180deg) brightness(95%) contrast(85%)" }} 
@@ -91,7 +91,7 @@ export default function ContactPage() {
             ></iframe>
             
             <a 
-              href="https://maps.app.goo.gl/dGFQdsT2uAAA4GaB9?g_st=iw" 
+              href="https://www.google.com/maps/place/Pune,+Maharashtra/" 
               target="_blank" 
               rel="noreferrer"
               className="absolute inset-0 z-10 cursor-pointer"
@@ -100,11 +100,11 @@ export default function ContactPage() {
             
             {/* Floating Overlay Card */}
             <div className="absolute bottom-6 left-6 md:bottom-10 md:right-10 md:left-auto bg-[#0a1224]/95 backdrop-blur-md p-6 rounded-2xl border border-white/10 shadow-2xl min-w-[280px] z-20 pointer-events-none md:pointer-events-auto">
-              <h4 className="text-white text-[16px] font-bold mb-1">Our Office</h4>
-              <p className="text-[#a0aabf] text-[13px] mb-5">Z.p.p.s School, Kal Nimbala, Maharashtra</p>
+              <h4 className="text-white text-[16px] font-bold mb-1">Digital-First Agency</h4>
+              <p className="text-[#a0aabf] text-[13px] mb-5">Proudly based in Pune, Maharashtra. Operating globally</p>
               
               <a 
-                href="https://maps.app.goo.gl/dGFQdsT2uAAA4GaB9?g_st=iw" 
+                href="https://www.google.com/maps/place/Pune,+Maharashtra/" 
                 target="_blank" 
                 rel="noreferrer"
                 className="pointer-events-auto"
