@@ -4,12 +4,12 @@ import { Building2, ShoppingBag, HeartPulse, GraduationCap, Plane, Wallet } from
 import { motion } from "framer-motion";
 
 const industries = [
-  { name: "FinTech & Banking", desc: "Secure and compliant software solutions for modern financial institutions.", icon: Wallet },
-  { name: "Healthcare", desc: "HIPAA-compliant apps and systems improving patient care and hospital management.", icon: HeartPulse },
-  { name: "Retail & E-commerce", desc: "Scalable platforms that drive sales and enhance customer shopping experiences.", icon: ShoppingBag },
-  { name: "Real Estate", desc: "Property management systems and virtual tour platforms for modern realtors.", icon: Building2 },
-  { name: "Travel & Logistics", desc: "Route optimization, booking engines, and fleet management software.", icon: Plane },
-  { name: "Education (EdTech)", desc: "E-learning platforms and learning management systems for the digital age.", icon: GraduationCap },
+  { name: "FinTech & Banking", desc: "Automated document intelligence for compliance auditing and secure financial data extraction.", icon: Wallet },
+  { name: "Healthcare", desc: "HIPAA-compliant LLM pipelines for medical record parsing and automated patient triage.", icon: HeartPulse },
+  { name: "Retail & E-commerce", desc: "Agentic workflows for inventory forecasting and personalized customer intelligence.", icon: ShoppingBag },
+  { name: "Real Estate", desc: "Automated contract analysis and unstructured property data orchestration.", icon: Building2 },
+  { name: "Travel & Logistics", desc: "Predictive reasoning models for fleet optimization and routing intelligence.", icon: Plane },
+  { name: "Education (EdTech)", desc: "Generative AI infrastructure for personalized learning management.", icon: GraduationCap },
 ];
 
 export default function IndustriesSection({ showHeader = true }) {
@@ -47,7 +47,7 @@ export default function IndustriesSection({ showHeader = true }) {
               Solutions Across <br className="hidden md:block"/> Various Sectors
             </h2>
             <p className="text-slate-500 text-[14px] md:text-[15px] leading-relaxed">
-              We leverage our technical expertise to build tailored solutions that address the unique challenges of diverse industries.
+              Our core AI platform and LLM reasoning engines are designed to automate complex workflows across multiple enterprise sectors.
             </p>
           </motion.div>
         )}

@@ -30,8 +30,8 @@ export default function StatsBar() {
       >
         <StatBox number="10+" label="Active Deployments" />
         <StatBox number="99.9%" label="System Uptime" />
-        <StatBox number="5+" label="Years Combined Experience" />
-        <StatBox number="100%" label="Client Satisfaction" />
+        <StatBox number="Aug 2026" label="Founded & Active" />
+        <StatBox number="99.9%" label="Delivery Reliability" />
       </motion.div>
     </div>
   );

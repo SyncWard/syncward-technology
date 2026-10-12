@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
 const services = [
-  { title: "Web Development", desc: "Custom, responsive, and high-performance web applications tailored to your business needs.", icon: Monitor, link: "/services/web-development" },
-  { title: "Mobile Apps", desc: "Native and cross-platform mobile applications that deliver seamless user experiences on iOS and Android.", icon: Smartphone, link: "/services/mobile-apps" },
-  { title: "UI/UX Design", desc: "Intuitive, engaging, and user-centric designs that elevate your brand and drive conversions.", icon: PenTool, link: "/services/ui-ux-design" },
-  { title: "E-commerce Solutions", desc: "Scalable online stores with secure payment gateways and optimized checkout flows.", icon: ShoppingCart, link: "/services/e-commerce" },
-  { title: "Cloud & DevOps", desc: "Secure cloud migrations, automated CI/CD pipelines, and robust infrastructure management.", icon: Cloud, link: "/services/cloud-api" },
+  { title: "Web Development", desc: "Architecting high-performance, responsive web platforms and distributed frontend systems built for scale.", icon: Monitor, link: "/services/web-development" },
+  { title: "Mobile Apps", desc: "Building resilient iOS and Android applications with offline-first synchronization, real-time data streaming, and native device performance.", icon: Smartphone, link: "/services/mobile-apps" },
+  { title: "UI/UX Design", desc: "Crafting unified enterprise dashboards, data visualization interfaces, and intuitive human-in-the-loop workflows for our AI-driven software platforms.", icon: PenTool, link: "/services/ui-ux-design" },
+  { title: "E-commerce Solutions", desc: "Developing LLM-powered semantic search, intelligent recommendation engines, and automated inventory forecasting models for digital commerce infrastructure.", icon: ShoppingCart, link: "/services/e-commerce" },
+  { title: "Cloud & DevOps", desc: "Deploying automated CI/CD pipelines, secure API infrastructure, and high-availability cloud environments to support heavy AI workloads.", icon: Cloud, link: "/services/cloud-api" },
   { title: "AI & Automation", desc: "Smart AI integrations and workflow automation to streamline operations and boost efficiency.", icon: Brain, link: "/services/ai-automation" },
 ];
 
@@ -59,7 +59,7 @@ export default function ServicesSection({ showHeader = true, ctaTheme = "light" 
               Comprehensive Technology <br className="hidden md:block" /> Solutions
             </h2>
             <p className="text-slate-500 text-[14px] md:text-[15px] leading-relaxed">
-              From concept to deployment, we provide end-to-end digital services to help you build, scale, and secure your business in the modern digital landscape.
+              SyncWard delivers high-throughput LLM pipelines, autonomous reasoning agents, and secure enterprise infrastructure built for complex workflow automation.
             </p>
           </motion.div>
         )}
@@ -111,7 +111,7 @@ export default function ServicesSection({ showHeader = true, ctaTheme = "light" 
           >
             <Link href="/services">
               <Button variant="outline" className="rounded-full px-8 py-6 text-[14px] font-semibold border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-[#286ef0] transition-all shadow-sm">
-                View All Services &rarr;
+                View Platform Architecture &rarr;
               </Button>
             </Link>
           </motion.div>

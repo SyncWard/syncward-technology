@@ -4,10 +4,10 @@ import { MessageSquare, PenTool, Code, Rocket } from "lucide-react";
 import { motion } from "framer-motion";
 
 const steps = [
-  { step: "01", title: "Discovery", desc: "We start by understanding your business goals, target audience, and project requirements.", icon: MessageSquare },
-  { step: "02", title: "Design", desc: "Our team creates intuitive wireframes and stunning UI designs tailored to your brand.", icon: PenTool },
-  { step: "03", title: "Development", desc: "We write clean, scalable code using modern technologies to bring the designs to life.", icon: Code },
-  { step: "04", title: "Deployment", desc: "Rigorous testing is done before launching your product to ensure a flawless experience.", icon: Rocket },
+  { step: "01", title: "Discovery", desc: "Identifying critical data bottlenecks and scoping scalable AI automation workflows.", icon: MessageSquare },
+  { step: "02", title: "Design", desc: "Designing secure, high-performance data pipelines and LLM infrastructure.", icon: PenTool },
+  { step: "03", title: "Development", desc: "Developing robust, multi-agent reasoning systems powered by frontier models.", icon: Code },
+  { step: "04", title: "Deployment", desc: "Scaling proprietary AI software platforms for enterprise-grade performance and security.", icon: Rocket },
 ];
 
 export default function ProcessSection() {

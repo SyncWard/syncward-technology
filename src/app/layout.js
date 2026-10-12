@@ -10,7 +10,7 @@ export const metadata = {
     default: "SyncWard Technologies | Full-Stack Development & IT Solutions",
     template: "%s | SyncWard Technologies",
   },
-  description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions.",
+  description: "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
   keywords: [
     "SyncWard", 
     "SyncWard Technologies", 
@@ -32,7 +32,7 @@ export const metadata = {
     locale: "en_US",
     url: "https://www.syncwardtech.co.in", // Update this when you buy the custom domain
     title: "SyncWard Technologies | Full-Stack Development",
-    description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions.",
+    description: "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
     siteName: "SyncWard Technologies",
     images: [
       {
@@ -46,7 +46,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "SyncWard Technologies",
-    description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions.",
+    description: "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
     images: ["/about-banner.jpg"],
   },
 };
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
     name: "SyncWard Technologies",
     url: "https://www.syncwardtech.co.in",
     logo: "https://www.syncwardtech.co.in/header-logo.png",
-    description: "SyncWard Technologies is a premier software agency specializing in custom software, mobile app development, AI automation, and scalable cloud solutions for modern businesses.",
+    description: "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
     sameAs: [
       "https://github.com/SyncWard",
       "https://www.linkedin.com/company/syncward-technology",

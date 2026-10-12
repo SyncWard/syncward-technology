@@ -17,7 +17,7 @@ export default function ContactPage() {
         bgImage="/background/contact-hero-bg.jpg"
         subtitle="Contact Us"
         title={<>Let's Build Something <br className="hidden md:block" /> Great</>}
-        description="Have a project in mind? We'd love to hear from you. Get in touch and let's create something amazing together."
+        description="Interested in deploying SyncWard inside your organization? Request enterprise platform access or connect with our engineering team."
       />
 
       {/* 2. Contact Info & Form Section */}

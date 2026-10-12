@@ -12,15 +12,15 @@ export default function CTASection() {
       {/* Content Section */}
       <div className="relative z-10 max-w-xl">
         <div className="flex items-center gap-2 mb-2">
-          <Rocket size={14} className="text-[#286ef0]" />
+          {/* <Rocket size={14} className="text-[#286ef0]" /> */}
           <p className="text-[#286ef0] font-bold text-[10px] tracking-widest uppercase">
-            Let's Build Together
+            {/* Let's Build Together */}
           </p>
         </div>
         
         {/* Heading size reduced slightly */}
         <h2 className="text-2xl md:text-3xl font-bold leading-tight text-white mb-2">
-          Ready to turn your idea into <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/50">reality?</span>
+          Ready to deploy intelligent  <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/50">automation?</span>
         </h2>
         
         <p className="text-[#a0aabf] text-[13px] md:text-sm font-medium max-w-lg leading-relaxed">
@@ -32,13 +32,13 @@ export default function CTASection() {
       <div className="relative z-10 flex flex-col sm:flex-row gap-3 w-full md:w-auto shrink-0 mt-2 md:mt-0">
         <Link href="/contact" className="w-full sm:w-auto">
           <Button className="w-full bg-[#286ef0] hover:bg-[#1d5ce0] text-white rounded-full px-6 py-5 text-[13px] font-bold shadow-[0_0_15px_rgba(40,110,240,0.2)] hover:shadow-[0_0_25px_rgba(40,110,240,0.4)] transition-all">
-            Start a Project <ArrowRight size={14} className="ml-2" />
+            Request Early Access <ArrowRight size={14} className="ml-2" />
           </Button>
         </Link>
         
         <Link href="/work" className="w-full sm:w-auto">
           <Button variant="outline" className="w-full border-white/20 text-white hover:bg-white/10 rounded-full px-6 py-5 text-[13px] font-semibold bg-transparent transition-all">
-            View Our Work
+            Platform Overview
           </Button>
         </Link>
       </div>

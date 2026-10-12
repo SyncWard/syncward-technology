@@ -7,10 +7,10 @@ import { Users, RefreshCw, ShieldCheck, Target, Play } from "lucide-react";
 import { motion } from "framer-motion";
 
 const features = [
-  { title: "Experienced Team", description: "Skilled developers, designers and problem-solvers.", icon: Users },
+  { title: "Experienced Team", description: "A dedicated product studio of AI engineers and full-stack architects.", icon: Users },
   { title: "Agile Process", description: "Fast, flexible and transparent development process.", icon: RefreshCw },
   { title: "Quality First", description: "Clean code, rigorous testing and long-term support.", icon: ShieldCheck },
-  { title: "Client-Centric Approach", description: "Your success is our priority.", icon: Target },
+  { title: "Enterprise-Ready", description: "Built for high availability, compliance, and secure data processing.", icon: Target },
 ];
 
 export default function WhyChooseSection() {
@@ -48,7 +48,7 @@ export default function WhyChooseSection() {
             Why Choose SyncWard?
           </h2>
           <p className="text-slate-500 text-[13px] md:text-sm font-medium leading-relaxed max-w-[450px] mb-10">
-            We combine technical expertise with a deep understanding of business needs to deliver solutions that make a real impact.
+            We combine deep-tech engineering with frontier LLM capabilities to build intelligent, autonomous platforms.
           </p>
 
           <div className="relative w-full max-w-[500px] aspect-[4/3] rounded-2xl overflow-hidden mt-4 group">
@@ -60,7 +60,7 @@ export default function WhyChooseSection() {
             />
             <div className="absolute bottom-0 right-0 w-[75%] md:w-[65%] bg-gradient-to-br from-[#1e293b]/95 to-[#0f172a]/95 backdrop-blur-md p-6 rounded-tl-2xl rounded-br-2xl text-white shadow-2xl border-t border-l border-white/10">
               <p className="font-semibold text-sm md:text-base leading-snug mb-5">
-                Turning your ideas into powerful digital experiences.
+                Engineering scalable AI infrastructure for the modern enterprise.
               </p>
               <button className="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-slate-900 transition-colors">
                 <Play size={16} className="ml-1" />

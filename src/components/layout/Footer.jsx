@@ -40,7 +40,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-white font-semibold text-[14px] mb-5">Services</h4>
+            <h4 className="text-white font-semibold text-[14px] mb-5">Technology Stack</h4>
             <ul className="flex flex-col gap-3 text-[13px] text-[#a0aabf]">
               <li><Link href="/services" className="hover:text-[#286ef0] transition-colors">Web Development</Link></li>
               <li><Link href="/services" className="hover:text-[#286ef0] transition-colors">Mobile App Development</Link></li>
@@ -93,7 +93,7 @@ export default function Footer() {
 
         {/* Copyright Bottom Bar */}
         <div className="border-t border-white/10 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-[#a0aabf] text-[11px]">
-          <p>&copy; {new Date().getFullYear()} SyncWard Technologies. All rights reserved.</p>
+          <p>© 2026 SyncWard Technologies. Founded in Aug 2026. All rights reserved</p>
           <div className="flex gap-4">
             {/* FIXED LINKS HERE */}
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>

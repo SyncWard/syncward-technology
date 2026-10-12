@@ -82,15 +82,15 @@ export default function HeroSection() {
             <span className="text-white font-semibold">
               SyncWard Technologies
             </span>{" "}
-            is a modern software development company, delivering innovative,
-            scalable and user-centric solutions for businesses of all sizes.
+            is a modern AI product studio, developing proprietary,
+            scalable, and intelligent platforms for enterprise ecosystems.
           </motion.p>
 
           {/* Buttons with Links */}
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
             <Link href="/contact" className="w-full sm:w-auto">
               <Button className="bg-[#286ef0] hover:bg-[#1d5ce0] text-white rounded-full px-7 py-5 text-sm font-medium shadow-[0_4px_14px_0_rgba(40,110,240,0.39)] w-full sm:w-auto transition-all">
-                Start a Project &rarr;
+                Request Early Access &rarr;
               </Button>
             </Link>
             
