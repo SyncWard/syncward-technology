@@ -54,7 +54,7 @@ export default function AboutPage() {
             </h2>
             <div className="text-slate-600 text-[14px] md:text-[15px] leading-relaxed space-y-5">
               <p>
-                Founded with a vision to bridge the gap between complex technology and business growth, SyncWard Technologies started as a small team of tech enthusiasts. Today, we have grown into a full-service technology agency.
+                Founded with a vision to bridge the gap between complex technology and business growth, SyncWard Technologies started as a small team of tech enthusiasts. Today, we have grown into modern AI product studio.
               </p>
               <p>
                 We believe that great software is not just about writing code; it's about solving real-world problems. Over the years, we have partnered with startups and enterprises alike to architect scalable web apps, design intuitive interfaces, and deploy reliable cloud infrastructures.

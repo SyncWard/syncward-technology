@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
       "https://github.com/SyncWard",
       "https://www.linkedin.com/company/syncward-technology",
       "https://www.instagram.com/syncwardtech",
-      "https://x.com/SyncWardTezs",
+      "https://x.com/SyncWardTech",
       "https://www.facebook.com/share/1FjaZLQVG3"
     ]
   };
