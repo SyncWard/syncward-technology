@@ -1,26 +1,27 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar"; 
-import Footer from "@/components/layout/Footer"; 
+import AppShell from "@/components/layout/AppShell";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://www.syncwardtech.co.in"),
   title: {
     default: "SyncWard Technologies | Full-Stack Development & IT Solutions",
     template: "%s | SyncWard Technologies",
   },
-  description: "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
+  description:
+    "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
   keywords: [
-    "SyncWard", 
-    "SyncWard Technologies", 
+    "SyncWard",
+    "SyncWard Technologies",
     "syncwardtech",
-    "Sync Ward", 
-    "Custom Software Development", 
-    "Mobile App Development", 
-    "AI Automation", 
+    "Sync Ward",
+    "Custom Software Development",
+    "Mobile App Development",
+    "AI Automation",
     "Cloud API Solutions",
-    "Sync Ward"
+    "IT Solutions Pune",
   ],
   authors: [{ name: "SyncWard Technologies" }],
   creator: "SyncWard Technologies",
@@ -30,9 +31,10 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.syncwardtech.co.in", // Update this when you buy the custom domain
+    url: "https://www.syncwardtech.co.in",
     title: "SyncWard Technologies | Full-Stack Development",
-    description: "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
+    description:
+      "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
     siteName: "SyncWard Technologies",
     images: [
       {
@@ -46,7 +48,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "SyncWard Technologies",
-    description: "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
+    description:
+      "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
     images: ["/about-banner.jpg"],
   },
 };
@@ -57,15 +60,17 @@ export default function RootLayout({ children }) {
     "@type": "ProfessionalService",
     name: "SyncWard Technologies",
     url: "https://www.syncwardtech.co.in",
-    logo: "https://www.syncwardtech.co.in/header-logo.png",
-    description: "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
+    // Fixed case-sensitivity to match public/Header-logo.png
+    logo: "https://www.syncwardtech.co.in/Header-logo.png",
+    description:
+      "SyncWard Technologies is an AI product studio developing proprietary enterprise platforms, autonomous reasoning agents, and scalable cloud infrastructure.",
     sameAs: [
       "https://github.com/SyncWard",
       "https://www.linkedin.com/company/syncward-technology",
       "https://www.instagram.com/syncwardtech",
       "https://x.com/SyncWardTech",
-      "https://www.facebook.com/share/1FjaZLQVG3"
-    ]
+      "https://www.facebook.com/share/1FjaZLQVG3",
+    ],
   };
 
   return (
@@ -76,12 +81,10 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${inter.className} bg-white text-slate-900 antialiased flex flex-col min-h-screen`}>
-        <Navbar />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+      <body
+        className={`${inter.className} bg-white text-slate-900 antialiased flex flex-col min-h-screen`}
+      >
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );
